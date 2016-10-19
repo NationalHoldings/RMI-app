@@ -1,0 +1,64 @@
+{
+     "report": {
+         "userId": "938d398dj9823",
+         "accountType": "worker"
+         "dayType": "travel"
+         "startedDate": "2015-07-11 22:28:38.3838",
+         "projectId": "23d98j23d9",
+         "page": {
+            "equip": {
+                "equipType": "Equipment 1",
+                "discrep": "This is broken",
+                "action": "Fixed it",
+                "part": "Part 1",
+                "amount": 2
+                },
+            "expenses": {
+                "payType": "credit",
+                "amount": "$45.00",
+                "merchant": "HyVee",
+                "reason": "Dinner time and had pancakes",
+                "receipt": nil
+                },
+            "jobInfo": {
+                "contractor": "Clarkson Construction",
+                "pm": "John Doe",
+                "pmMobile": 5555555555,
+                "pmEmail": "brian@playfsb.com",
+                "super": "Jason Doe",
+                "superMobile": 5555555555,
+                "superEmail": "brian@playfsb.com",
+                "address": "111589 Parkway Rd Kansas City, MO 66445",
+                "salesRep": "Tony George",
+                "salesMobile": 55555555555
+                },
+            "history": {
+                ????
+                }
+            }            
+         }
+         "hours": {
+             "base": {
+                 "mon": 6,
+                 "wed": 6,
+                 "thu": 5
+             },
+             "mainten": {
+                 "tue": 3,
+                 "fri": 9
+             },
+             "total": {
+                "mon": 8,
+                "tue": 8,
+                "wed": 9,
+                "thur": 10,
+                "fri": 8
+             }
+         },
+         "notes": {
+             "problem": "blah is blahing",
+             "resolution": "blahed it"
+         }
+     }
+
+}

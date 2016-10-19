@@ -1,0 +1,15 @@
+func evaluateProblem(problemNumber: Int, problemBlock: () -> Int) -> Answer
+{
+    println("Evaluating problem \(problemNumber)");
+
+    let start = NSDate(); // <<<<<<<<<< Start time
+    let myGuess = problemBlock();
+    let end = NSDate();   // <<<<<<<<<<   end time
+
+    let theAnswer = self.checkAnswer(answerNum: "\(problemNumber)", guess: myGuess);
+
+    let timeInterval: Double = end.timeIntervalSinceDate(start); // <<<<< Difference in seconds (double)
+
+    println("Time to evaluate problem \(problemNumber): \(timeInterval) seconds");
+    return theAnswer;
+}

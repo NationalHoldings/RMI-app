@@ -1,0 +1,24 @@
+{
+
+     "report": {
+         "userId": "938d398dj9823",
+         "startedDate": "2015-07-11 22:88:38.3838",
+         "projectId": "23d98j23d9",
+         "hours": {
+             "bench": {
+                 "mon": 6,
+                 "wed": 6,
+                 "thu": 5
+             },
+             "mainten": {
+                 "tue": 3,
+                 "fri": 9
+             }
+         },
+         "notes": {
+             "problem": "blah is blahing",
+             "resolution": "blahed it"
+         }
+     }
+
+}
